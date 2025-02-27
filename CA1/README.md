@@ -26,12 +26,13 @@ The first problem involves Parsa, a student who wants to avoid using the elevato
 
 #### Example Output:
 
-**Input**: 311  
-0.6
-**Output**:
+**Input**:
+    311  
+    0.6  
 
-3 #Zone  
-22 #Number of jumps  
+**Output**:
+    3 #Zone  
+    22 #Number of jumps  
 
 
 
@@ -61,12 +62,15 @@ The second problem centers around Soheil, who is trying to control his weight by
 
 #### Example Output:
 
-**Input**: 4
-6
-2
-9
-5
-**Output**: chagh  
+**Input**:
+    4
+    6  
+    2  
+    9  
+    5  
+**Output**:  
+    chagh  
+   
 
 
 
