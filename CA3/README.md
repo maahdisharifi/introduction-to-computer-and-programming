@@ -24,68 +24,102 @@ Below are the supported commands and their descriptions for interacting with the
 
 
 ### Sign Up
-
-Creates a new user account with a username and password.
-
-```bash
+This command creates a new user account.
+```
 signup <username> <password>
 ```
+**Example:**
+```
+signup hamid 12#t
+```
+
+- The username and password are separated by a space.
+- Usernames and passwords can include letters, numbers, and special characters.
 
 ### Login
-
-Logs a user into their account using the username and password.
-
-```bash
+This command allows a user to log in to their account.
+```
 login <username> <password>
 ```
+**Example:**
+```
+login erfan pnh2880
+```
+
+- Username and password must match the details provided during registration.
 
 ### Post
-
-Allows the logged-in user to post content.
-
-```bash
+This command allows the logged-in user to post content.
+```
 post <text>
 ```
-
-### Like
-
-Allows a user to like a specific post by another user.
-
-```bash
-like <username> <post_id>
+**Example:**
+```
+post world cup!! The Argentina team is the winner of the 2022 World Cup.
 ```
 
+- The post content is provided as text and can be of any length.
+
+### Like
+This command allows a user to like a specific post.
+```
+like <username> <post_id>
+```
+**Example:**
+```
+like Navid 7
+```
+
+- The `post_id` refers to the unique identifier of the post being liked.
+- Users can like other users' posts by specifying the `username` and `post_id`.
+
 ### Logout
-
-Logs the user out of their account.
-
-```bash
+This command logs the user out of their account.
+```
+logout
+```
+**Example:**
+```
 logout
 ```
 
+- The user will be logged out of the current session.
+
 ### Delete Post
-
-Allows a user to delete one of their own posts.
-
-```bash
+This command allows a user to delete one of their own posts.
+```
 delete <post_id>
 ```
+**Example:**
+```
+delete 3
+```
+
+- Only the user who created the post can delete it.
 
 ### Info
-
-Displays the user's account details, including their posts and the number of likes.
-
-```bash
+This command displays user information, including the list of posts and their respective likes.
+```
+info
+```
+**Example:**
+```
 info
 ```
 
+- The system will display the user's posts and the number of likes each post has received.
+
 ### Find User
-
-Searches for a user by their username.
-
-```bash
+This command searches for a user by their username.
+```
 find_user <username>
 ```
+**Example:**
+```
+find_user darya23
+```
+
+- The system will search for the user and display their posts and the number of likes.
 
 ## Data Structures
 
@@ -102,4 +136,4 @@ Used to manage users and their posts, with each user represented as a node.
 ### Structs
 
 Defines the data structures for users and posts, holding relevant data like usernames, passwords, post IDs, and content.
-```
+
