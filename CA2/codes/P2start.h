@@ -1,0 +1,1 @@
+void P2start(char*sign,int* Ip2Choice,char*P2cardTypes,int*P2cardNumbers,int*P2Index,char *p2Choice,int*Ibakhsh_name,char*bakhsh_name,int p2Cards[4][11]);

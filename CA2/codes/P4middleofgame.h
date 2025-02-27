@@ -1,0 +1,1 @@
+void P4middleofgame(char*sign,int* Ip4Choice,int p4Cards[4][11],char P4cardTypes[],char *bakhsh_name,int *P4Index,char p4Choice[],int* P4cardNumbers);

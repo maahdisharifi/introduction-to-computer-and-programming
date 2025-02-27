@@ -1,0 +1,1 @@
+void winner(int *turn,char*p1Choice,char *p2Choice,char* p3Choice,char* p4Choice,int *p1Index,int* Ip2Choice,int* Ip3Choice,int* Ip4Choice,int*P1cardNumbers,char *P1cardTypes,int*Team1_points,int *Team2_points,char*bakhsh_name);

@@ -1,0 +1,1 @@
+void P4start(char*sign,int* Ip4Choice,char*P4cardTypes,int*P4cardNumbers,int*P4Index,char *p4Choice,int*Ibakhsh_name,char*bakhsh_name,int p4Cards[4][11]);

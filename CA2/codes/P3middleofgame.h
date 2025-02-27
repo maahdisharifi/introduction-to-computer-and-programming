@@ -1,0 +1,1 @@
+void P3middleofgame(char*sign,int* Ip3Choice,int p3Cards[4][11],char P3cardTypes[],char *bakhsh_name,int* P3Index,char p3Choice[],int* P3cardNumbers);

@@ -1,0 +1,1 @@
+void P2middleofgame(char*sign,int* Ip2Choice,int p2Cards[4][11],char P2cardTypes[],char *bakhsh_name,int*P2Index,char p2Choice[],int* P2cardNumbers);

@@ -1,0 +1,1 @@
+void P3start(char*sign,int* Ip3Choice,char*P3cardTypes,int*P3cardNumbers,int*P3Index,char *p3Choice,int*Ibakhsh_name,char*bakhsh_name,int p3Cards[4][11]);

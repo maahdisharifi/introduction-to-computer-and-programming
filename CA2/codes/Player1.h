@@ -1,0 +1,1 @@
+void Player1(char*sign,int*turn,int *p1Index,char*P1cardTypes,char* p1Choice);
