@@ -72,6 +72,7 @@ The second problem centers around Soheil, who is trying to control his weight by
     9  
     5  
 **Output**:  
+
     chagh  
    
 
